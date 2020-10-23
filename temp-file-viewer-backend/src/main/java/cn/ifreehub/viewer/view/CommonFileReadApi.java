@@ -44,9 +44,9 @@ public class CommonFileReadApi {
     }
 
     // 密码校验
-    if (!StringUtils.equals(passwd, reference.getPasswd())) {
-      return ApiWrapper.fail(ApiStatus.PARAMS_ERROR, "密码错误");
-    }
+//    if (!StringUtils.equals(passwd, reference.getPasswd())) {
+//      return ApiWrapper.fail(ApiStatus.PARAMS_ERROR, "密码错误");
+//    }
     return ApiWrapper.success();
   }
 

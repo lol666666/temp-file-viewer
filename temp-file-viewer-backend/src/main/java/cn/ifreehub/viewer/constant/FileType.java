@@ -15,38 +15,38 @@ public enum FileType {
   /**
    * 文本类型
    */
-  MARKDOWN("md", "markdown", "/md"),
-  JAVA("java", "java", "/md"),
+//  MARKDOWN("md", "markdown", "/md"),
+//  JAVA("java", "java", "/md"),
   JSON("json", "json", "/md"),
-  XML("xml", "xml", "/md"),
-  TYPESCRIPT("ts", "typescript", "/md"),
-  PHP("php", "php", "/md"),
-  C("c", "C", "/md"),
-  C_PLUS("cpp", "C++", "/md"),
-  JAVASCRIPT("js", "javascript", "/md"),
-  PYTHON("py", "python", "/md"),
-  CSS("css", "css", "/md"),
-  TXT("txt", "txt", "/md"),
-  HTML("html", "html", "/md"),
-  GO("go", "go", "/md"),
+//  XML("xml", "xml", "/md"),
+//  TYPESCRIPT("ts", "typescript", "/md"),
+//  PHP("php", "php", "/md"),
+//  C("c", "C", "/md"),
+//  C_PLUS("cpp", "C++", "/md"),
+//  JAVASCRIPT("js", "javascript", "/md"),
+//  PYTHON("py", "python", "/md"),
+//  CSS("css", "css", "/md"),
+//  TXT("txt", "txt", "/md"),
+//  HTML("html", "html", "/md"),
+//  GO("go", "go", "/md"),
 
   /**
    * 图片类型
    */
-  PNG("png", "png", "/img"),
-  JPG("jpg", "jpg", "/img"),
-  JPEG("jpeg", "jpeg", "/img"),
-  GIF("gif", "gif", "/img"),
+//  PNG("png", "png", "/img"),
+//  JPG("jpg", "jpg", "/img"),
+//  JPEG("jpeg", "jpeg", "/img"),
+//  GIF("gif", "gif", "/img"),
 
   /**
    * office
    */
-  DOCX("docx", "docx", "/office"),
-  DOC("doc", "doc", "/office"),
-  XLSX("xlsx", "xlsx", "/office"),
-  XLS("xls", "xls", "/office"),
-  PPTX("pptx", "pptx", "/office"),
-  PPT("ppt", "ppt", "/office"),
+//  DOCX("docx", "docx", "/office"),
+//  DOC("doc", "doc", "/office"),
+//  XLSX("xlsx", "xlsx", "/office"),
+//  XLS("xls", "xls", "/office"),
+//  PPTX("pptx", "pptx", "/office"),
+//  PPT("ppt", "ppt", "/office"),
   ;
 
   private static final Map<String, FileType> ALL_FILE_TYPES = Maps.newHashMap();

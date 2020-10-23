@@ -50,12 +50,12 @@ public class PictureFileReadApi {
    */
   private static final Map<FileType, String> FILE_BASE64_PREFIX = Maps.newHashMapWithExpectedSize(4);
 
-  static {
-    FILE_BASE64_PREFIX.put(FileType.PNG, "data:image/png;base64,");
-    FILE_BASE64_PREFIX.put(FileType.JPEG, "data:image/jpeg;base64,");
-    FILE_BASE64_PREFIX.put(FileType.JPG, "data:image/jpg;base64,");
-    FILE_BASE64_PREFIX.put(FileType.GIF, "data:image/gif;base64,");
-  }
+//  static {
+//    FILE_BASE64_PREFIX.put(FileType.PNG, "data:image/png;base64,");
+//    FILE_BASE64_PREFIX.put(FileType.JPEG, "data:image/jpeg;base64,");
+//    FILE_BASE64_PREFIX.put(FileType.JPG, "data:image/jpg;base64,");
+//    FILE_BASE64_PREFIX.put(FileType.GIF, "data:image/gif;base64,");
+//  }
 
   /**
    * 查看图片,返回base64格式

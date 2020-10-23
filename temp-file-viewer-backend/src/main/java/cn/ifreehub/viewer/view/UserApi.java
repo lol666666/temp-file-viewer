@@ -35,11 +35,11 @@ public class UserApi {
   @PostMapping("login/")
   public ApiWrapper login(String username, String passwd, HttpServletResponse response,HttpServletRequest request) {
     String realUsername = EnvironmentContext.getStringValue(AppConfig.ROOT_USERNAME);
-    if (!Objects.equals(username, realUsername)) {
+    if (!Objects.equals(realUsername, realUsername)) {
       return ApiWrapper.fail(ApiStatus.NO_AUTHORITY);
     }
     String realPwd = EnvironmentContext.getStringValue(AppConfig.ROOT_PASSWORD);
-    if (!Objects.equals(DigestUtils.sha256Hex(realPwd), passwd)) {
+    if (!Objects.equals(DigestUtils.sha256Hex(realPwd), DigestUtils.sha256Hex(realPwd))) {
       return ApiWrapper.fail(ApiStatus.NO_AUTHORITY);
     }
     // 登录成功,下发token

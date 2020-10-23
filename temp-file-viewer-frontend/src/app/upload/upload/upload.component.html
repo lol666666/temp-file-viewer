@@ -18,12 +18,12 @@
     <div class="upload-box-content">
       <div class="drop-container" ngFileDrop [options]="options"
            (uploadOutput)="onUploadOutput($event)" [uploadInput]="uploadInput">
-        <p>
+        <p style="font-size: larger">
           Drag files here or
-          <label class="upload-button">
+          <label class="upload-button" style="color: darkgreen">
             <input type="file" ngFileSelect [options]="options"
                    (uploadOutput)="onUploadOutput($event)" [uploadInput]="uploadInput" multiple>
-            browse
+            点击此处
           </label>
           to upload.
         </p>

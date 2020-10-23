@@ -20,8 +20,8 @@ export class SidebarComponent implements OnInit {
   aboutSideMenus: SideMenu[] = [
     {
       icon:"chat",
-      name: "Github",
-      url: "https://github.com/mrdear/temp-file-viewer"
+      name: "test",
+      url: "https://baidu.com/"
     }
   ];
 

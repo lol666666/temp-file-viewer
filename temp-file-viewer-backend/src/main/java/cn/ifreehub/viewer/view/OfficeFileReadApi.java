@@ -57,14 +57,14 @@ public class OfficeFileReadApi {
    */
   private static final Map<FileType, String> OFFICE_CONTENT_TYPE = Maps.newHashMapWithExpectedSize(4);
 
-  static {
-    OFFICE_CONTENT_TYPE.put(FileType.XLSX, "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet");
-    OFFICE_CONTENT_TYPE.put(FileType.XLS, "application/vnd.ms-excel");
-    OFFICE_CONTENT_TYPE.put(FileType.DOCX, "application/vnd.openxmlformats-officedocument.wordprocessingml.document");
-    OFFICE_CONTENT_TYPE.put(FileType.DOC, "application/msword");
-    OFFICE_CONTENT_TYPE.put(FileType.PPTX, "application/vnd.openxmlformats-officedocument.presentationml.presentation");
-    OFFICE_CONTENT_TYPE.put(FileType.PPT, "application/vnd.ms-powerpoint");
-  }
+//  static {
+//    OFFICE_CONTENT_TYPE.put(FileType.XLSX, "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet");
+//    OFFICE_CONTENT_TYPE.put(FileType.XLS, "application/vnd.ms-excel");
+//    OFFICE_CONTENT_TYPE.put(FileType.DOCX, "application/vnd.openxmlformats-officedocument.wordprocessingml.document");
+//    OFFICE_CONTENT_TYPE.put(FileType.DOC, "application/msword");
+//    OFFICE_CONTENT_TYPE.put(FileType.PPTX, "application/vnd.openxmlformats-officedocument.presentationml.presentation");
+//    OFFICE_CONTENT_TYPE.put(FileType.PPT, "application/vnd.ms-powerpoint");
+//  }
 
   /**
    * 文档展示信息

@@ -58,10 +58,10 @@ public class TinifyPngRepo {
     }
 
     // 只压缩png与jpg
-    FileType type = reference.getFileType();
-    if (type != FileType.PNG && type != FileType.JPG) {
-      return;
-    }
+//    FileType type = reference.getFileType();
+//    if (type != FileType.PNG && type != FileType.JPG) {
+//      return;
+//    }
 
     logger.info("start shrink file {}", reference);
     try {
