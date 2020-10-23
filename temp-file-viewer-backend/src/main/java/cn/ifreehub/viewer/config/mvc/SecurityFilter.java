@@ -26,7 +26,7 @@ import javax.servlet.http.HttpServletResponse;
  * @author Quding Ding
  * @since 2018/6/13
  */
-@WebFilter(filterName = "securityFilter", urlPatterns = "/*")
+//@WebFilter(filterName = "securityFilter", urlPatterns = "/*")
 public class SecurityFilter extends OncePerRequestFilter {
 
   /**

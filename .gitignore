@@ -96,4 +96,5 @@ Thumbs.db
 */target
 .idea
 logs
+*/node_modules/
 
