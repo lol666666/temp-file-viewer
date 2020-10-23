@@ -248,7 +248,7 @@ Apache License
  See the License for the specific language governing permissions and
  limitations under the License.
 
-marked@0.4.0
+marked@0.5.2
 MIT
 # License information
 
