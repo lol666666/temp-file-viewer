@@ -48,7 +48,7 @@ public class FileApplicationService {
       // 保存文件
       try {
         file.transferTo(new File(reference.getFileAbsolutePath()));
-        tinifyPngRepo.asyncShrinkPicture(reference);
+//        tinifyPngRepo.asyncShrinkPicture(reference);
       } catch (IOException e) {
         logger.error("save file fail, file is {}", reference, e);
         throw new ServiceException(e);

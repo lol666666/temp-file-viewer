@@ -45,7 +45,7 @@ public class FileOperateAdminApi {
     logger.info("upload file {}", reference);
     UserConfig config = configApplicationService.getUserConfig();
 
-    // 重新上传则不改变密码
+//     重新上传则不改变密码
     FileIndexReference oldReference = config.getFiles().get(reference.getMd5Name());
     if (null != oldReference) {
       reference.modifyPasswd(oldReference.getPasswd());
